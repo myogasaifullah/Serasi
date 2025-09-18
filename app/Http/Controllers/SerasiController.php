@@ -37,7 +37,7 @@ class SerasiController extends Controller
 
     $serasiList = $query->latest()->paginate($perPage)->withQueryString();
 
-    return view('welcome', compact('serasiList'));
+    return view('serasi', compact('serasiList'));
 }
 
     /**
