@@ -7,6 +7,7 @@
   <title>HIMA Informatika</title>
   <meta name="description" content="Website resmi Himpunan Mahasiswa Informatika">
   <meta name="keywords" content="hima, informatika, mahasiswa, teknologi, programming">
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
   <!-- Favicons -->
   <link href="/build/assets/img/favicon.png" rel="icon">
@@ -35,8 +36,8 @@
 
       <a href="index.html" class="logo d-flex align-items-center">
         <!-- Uncomment the line below if you also wish to use an image logo -->
-        <!-- <img src="/build/assets/img/logo.png" alt=""> -->
-        <h1 class="sitename">HIMA Informatika</h1>
+        <img src="/build/assets/img/logo.png" alt="">
+        <h1 class="sitename">HIMA INFORMATIKA</h1>
       </a>
 
       <nav id="navmenu" class="navmenu">
@@ -47,6 +48,8 @@
           <li><a href="#gallery">Galeri</a></li>
           <li><a href="#team">Pengurus</a></li>
           <li><a href="#contact">Kontak</a></li>
+              <li><a href="#serasi">Serasi</a></li> <!-- Tambahkan ini -->
+
         </ul>
         <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
       </nav>
@@ -281,14 +284,19 @@
             <img src="/build/assets/img/details-1.png" class="img-fluid" alt="">
           </div>
           <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
-            <h3>Informatics Competition</h3>
+            <h3>Informatics Excellence Center 
+</h3>
             <p class="fst-italic">
-              Kompetisi programming tahunan yang diadakan untuk mengasah kemampuan pemecahan masalah dan coding.
+              : Ruang Inovasi dan Prestasi Mahasiswa Informatika
             </p>
             <ul>
-              <li><i class="bi bi-check"></i><span> Tingkatkan kemampuan algoritma dan pemrograman</span></li>
-              <li><i class="bi bi-check"></i> <span>Ajang unjuk kemampuan mahasiswa informatika</span></li>
-              <li><i class="bi bi-check"></i> <span>Menjalin persaudaraan antar kampus</span></li>
+              <li><i class="bi bi-check"></i><span> Deskripsi: Program ini bertujuan untuk menciptakan ruang inovasi yang mendukung mahasiswa Informatika untuk berprestasi. 
+</span></li>
+              <li><i class="bi bi-check"></i> <span>Kegiatan Utama:
+Pengembangan ruang inovasi dan Menciptakan ruang kompetitif
+Memeberikan fasilitas dukungan kompetitif. 
+</span></li>
+              <li><i class="bi bi-check"></i> <span>Manfaat: Meningkatkan kreativitas, kemampuan kompetitif, dan keterampilan teknis.</span></li>
             </ul>
           </div>
         </div><!-- Features Item -->
@@ -300,7 +308,7 @@
           <div class="col-md-7 order-2 order-md-1" data-aos="fade-up" data-aos-delay="200">
             <h3>Tech Week</h3>
             <p class="fst-italic">
-              Serangkaian acara teknologi selama seminggu penuh yang mencakup workshop, seminar, dan hackathon.
+              Serangkaian acara teknologi selama seminggu yang mencakup workshop dan seminar.
             </p>
             <p>
               Tech Week merupakan program unggulan yang dirancang untuk memberikan exposure terhadap teknologi terkini dan tren industri. Peserta akan mendapatkan insight langsung dari praktisi industri dan kesempatan untuk mengembangkan project nyata.
@@ -332,78 +340,63 @@
 
       <!-- Section Title -->
       <div class="container section-title" data-aos="fade-up">
-        <h2>Galeri</h2>
-        <div><span>Kumpulan Momen</span> <span class="description-title">HIMA Informatika</span></div>
+        <h2>Divisi</h2>
+        <div><span>Divisi</span> <span class="description-title">HIMA Informatika</span></div>
       </div><!-- End Section Title -->
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
         <div class="row g-0">
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-1.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="/build/assets/img/gallery/gallery-1.png" class="glightbox" data-gallery="images-gallery">
+                <img src="/build/assets/img/gallery/gallery-1.png" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-2.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              <a href="/build/assets/img/gallery/gallery-2.png" class="glightbox" data-gallery="images-gallery">
+                <img src="/build/assets/img/gallery/gallery-2.png" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-3.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="/build/assets/img/gallery/gallery-3.png" class="glightbox" data-gallery="images-gallery">
+                <img src="/build/assets/img/gallery/gallery-3.png" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-4.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="/build/assets/img/gallery/gallery-4.png" class="glightbox" data-gallery="images-gallery">
+                <img src="/build/assets/img/gallery/gallery-4.png" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-5.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="/build/assets/img/gallery/gallery-5.png" class="glightbox" data-gallery="images-gallery">
+                <img src="/build/assets/img/gallery/gallery-5.png" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
+          <div class="col-lg-4 col-md-4">
             <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-6.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="/build/assets/img/gallery/gallery-6.png" class="glightbox" data-gallery="images-gallery">
+                <img src="/build/assets/img/gallery/gallery-6.png" alt="" class="img-fluid">
               </a>
             </div>
           </div><!-- End Gallery Item -->
 
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-7.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-7.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
-          <div class="col-lg-3 col-md-4">
-            <div class="gallery-item">
-              <a href="/build/assets/img/gallery/gallery-8.jpg" class="glightbox" data-gallery="images-gallery">
-                <img src="/build/assets/img/gallery/gallery-8.jpg" alt="" class="img-fluid">
-              </a>
-            </div>
-          </div><!-- End Gallery Item -->
-
+        
         </div>
 
       </div>
@@ -413,7 +406,7 @@
     <!-- Testimonials Section -->
     <section id="testimonials" class="testimonials section dark-background">
 
-      <img src="/build/assets/img/testimonials-bg.jpg" class="testimonials-bg" alt="">
+      <img src="/build/assets/img/testimonials-bg.jpeg" class="testimonials-bg" alt="">
 
       <div class="container" data-aos="fade-up" data-aos-delay="100">
 
@@ -437,9 +430,9 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="/build/assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <img src="/build/assets/img/profile.png" class="testimonial-img" alt="">
                 <h3>Budi Santoso</h3>
-                <h4>Ketua HIMA 2022</h4>
+                <h4>Ade Chandra 2022</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                 </div>
@@ -453,8 +446,8 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="/build/assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sari Dewi</h3>
+                <img src="/build/assets/img/profile.png" class="testimonial-img" alt="">
+                <h3>Dela Se</h3>
                 <h4>Anggota Aktif</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -469,8 +462,8 @@
 
             <div class="swiper-slide">
               <div class="testimonial-item">
-                <img src="/build/assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Rizky Pratama</h3>
+                <img src="/build/assets/img/profile.png" class="testimonial-img" alt="">
+                <h3>Risma IF 22 Dx</h3>
                 <h4>Koordinator Acara</h4>
                 <div class="stars">
                   <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
@@ -506,9 +499,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="member">
-              <div class="pic"><img src="/build/assets/img/team/team-1.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="/build/assets/img/profile.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Ahmad Rizki</h4>
+                <h4>Rifki Abdullah</h4>
                 <span>Ketua HIMA</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -522,9 +515,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="member">
-              <div class="pic"><img src="/build/assets/img/team/team-2.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="/build/assets/img/profile.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Dewi Anggraini</h4>
+                <h4>Selpia Ayu</h4>
                 <span>Wakil Ketua</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -538,9 +531,9 @@
 
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="member">
-              <div class="pic"><img src="/build/assets/img/team/team-3.jpg" class="img-fluid" alt=""></div>
+              <div class="pic"><img src="/build/assets/img/profile.png" class="img-fluid" alt=""></div>
               <div class="member-info">
-                <h4>Fajar Setiawan</h4>
+                <h4>Clara Maradini</h4>
                 <span>Sekretaris</span>
                 <div class="social">
                   <a href=""><i class="bi bi-twitter-x"></i></a>
@@ -636,6 +629,146 @@
 
     </section><!-- /Contact Section -->
 
+    <!-- Serasi Section -->
+<section id="serasi" class="serasi section light-background">
+<!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h2>Serasi</h2>
+    <div><span>Serap</span> <span class="description-title">Aspirasi</span></div>
+  </div><!-- End Section Title -->
+  {{-- Logo Bulat di Paling Atas --}}
+    <div class="flex justify-center mt-6 mb-4">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTIADQ4zEmHUL4_h42vSeAIrILRi6VEcmLiA&s" alt="Logo Serasi" class="w-24 h-24 rounded-full shadow-md border-4 border-red-700">
+    </div>
+    <div class="container mx-auto px-4 py-10">
+        <h1 class="text-3xl font-bold text-center text-red-700 mb-8">Formulir Serasi - Serap Aspirasi</h1>
+
+        {{-- Flash Message --}}
+        @if(session('success'))
+        <div class="mb-6 p-4 rounded bg-green-100 text-green-800 shadow">
+            {{ session('success') }}
+        </div>
+        @endif
+
+        {{-- Form Input --}}
+        <form method="POST" action="{{ route('serasi.store') }}" class="bg-white p-6 rounded-lg shadow-md mb-10">
+            @csrf
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <input type="text" name="nama" placeholder="Nama" class="form-input border border-gray-300 rounded p-2 w-full" required>
+                <input type="text" name="npm" placeholder="NPM" class="form-input border border-gray-300 rounded p-2 w-full" required>
+                <input type="email" name="email" placeholder="Email" class="form-input border border-gray-300 rounded p-2 w-full" required>
+                <input type="text" name="telpon" placeholder="Telpon" class="form-input border border-gray-300 rounded p-2 w-full" required>
+                <select name="kategori" class="form-select border border-gray-300 rounded p-2 w-full" required>
+                    <option value="">-- Pilih Kategori --</option>
+                    <option value="akademik">Akademik</option>
+                    <option value="non-akademik">Non-Akademik</option>
+                </select>
+            </div>
+            <div class="mt-4">
+                <textarea name="deskripsi_laporan" rows="4" class="form-textarea w-full border border-gray-300 rounded p-2" placeholder="Deskripsi Laporan" required></textarea>
+            </div>
+            <button type="submit" class="mt-6 px-6 py-2 bg-red-800 text-white font-semibold rounded hover:bg-red-700 transition">
+                Kirim Aspirasi
+            </button>
+        </form>
+
+        {{-- Filter Form --}}
+        <h2 class="text-2xl font-semibold mb-4 text-gray-800">Daftar Aspirasi</h2>
+        <form method="GET" class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-6">
+            <input type="text" name="search" placeholder="Cari nama, NPM, email" value="{{ request('search') }}"
+                class="p-2 border border-gray-300 rounded w-full">
+
+            <select name="kategori" class="p-2 border border-gray-300 rounded w-full">
+                <option value="">Semua Kategori</option>
+                <option value="akademik" {{ request('kategori') == 'akademik' ? 'selected' : '' }}>Akademik</option>
+                <option value="non-akademik" {{ request('kategori') == 'non-akademik' ? 'selected' : '' }}>Non-Akademik</option>
+            </select>
+
+            <select name="status" class="p-2 border border-gray-300 rounded w-full">
+                <option value="">Semua Status</option>
+                <option value="tinjau" {{ request('status') == 'tinjau' ? 'selected' : '' }}>Tinjau</option>
+                <option value="proses" {{ request('status') == 'proses' ? 'selected' : '' }}>Proses</option>
+                <option value="tolak" {{ request('status') == 'tolak' ? 'selected' : '' }}>Tolak</option>
+                <option value="selesai" {{ request('status') == 'selesai' ? 'selected' : '' }}>Selesai</option>
+            </select>
+
+            <button type="submit" class="bg-red-800 text-white px-4 py-2 rounded hover:bg-red-700 transition">
+                Filter
+            </button>
+        </form>
+
+        {{-- Tabel Data --}}
+        <div class="overflow-auto bg-white rounded-lg shadow-md">
+            @if ($serasiList->isEmpty())
+            <p class="p-6 text-center text-gray-500">Belum ada data aspirasi.</p>
+            @else
+            <table class="min-w-full table-auto divide-y divide-gray-200 text-sm">
+                <thead class="bg-gray-100 text-gray-600">
+                    <tr>
+                        <th class="px-4 py-2 text-left font-medium">Nama</th>
+                        <th class="px-4 py-2 text-left font-medium">NPM</th>
+                        <th class="px-4 py-2 text-left font-medium">Email</th>
+                        <th class="px-4 py-2 text-left font-medium">Telpon</th>
+                        <th class="px-4 py-2 text-left font-medium">Kategori</th>
+                        <th class="px-4 py-2 text-left font-medium">Deskripsi</th>
+                        <th class="px-4 py-2 text-left font-medium">Status</th>
+                        <th class="px-4 py-2 text-left font-medium">Pesan Balasan</th>
+                        <th class="px-4 py-2 text-left font-medium">Tanggal</th>
+                    </tr>
+                </thead>
+                <tbody class="divide-y divide-gray-200">
+                    @foreach($serasiList as $serasi)
+                    <tr class="hover:bg-gray-50">
+                        <td class="px-4 py-2">{{ $serasi->nama }}</td>
+                        <td class="px-4 py-2">{{ $serasi->npm }}</td>
+                        <td class="px-4 py-2">{{ $serasi->email }}</td>
+                        <td class="px-4 py-2">{{ $serasi->telpon }}</td>
+                        <td class="px-4 py-2">{{ ucfirst($serasi->kategori) }}</td>
+                        <td class="px-4 py-2">{{ $serasi->deskripsi_laporan }}</td>
+                        <td class="px-4 py-2">
+                            <span class="inline-block px-2 py-1 text-xs rounded font-medium 
+                                {{ $serasi->status == 'selesai' ? 'bg-green-200 text-green-800' : 
+                                   ($serasi->status == 'proses' ? 'bg-blue-200 text-white-800' :
+                                   ($serasi->status == 'tolak' ? 'bg-red-200 text-red-800' : 'bg-yellow-100 text-yellow-800')) }}">
+                                {{ ucfirst($serasi->status) }}
+                            </span>
+                        </td>
+                        <td class="px-4 py-2">{{ $serasi->pesan_balasan ?? '-' }}</td>
+                        <td class="px-4 py-2">{{ $serasi->created_at->format('d M Y') }}</td>
+                    </tr>
+                    @endforeach
+                </tbody>
+            </table>
+
+            {{-- Footer Pagination + Per Page --}}
+            <div class="flex flex-col md:flex-row justify-between items-center gap-4 p-4">
+                {{-- Dropdown per_page --}}
+                <form method="GET" class="flex items-center gap-2">
+                    <label for="per_page" class="text-sm text-gray-700">Tampilkan</label>
+                    <select name="per_page" id="per_page" onchange="this.form.submit()" class="form-select w-20 text-sm rounded border-gray-300 focus:ring focus:ring-red-200">
+                        <option value="5" {{ request('per_page') == 5 ? 'selected' : '' }}>5</option>
+                        <option value="10" {{ request('per_page') == 10 ? 'selected' : '' }}>10</option>
+                        <option value="25" {{ request('per_page') == 25 ? 'selected' : '' }}>25</option>
+                        <option value="50" {{ request('per_page') == 50 ? 'selected' : '' }}>50</option>
+                    </select>
+                    <span class="text-sm text-gray-700">data per halaman</span>
+
+                    {{-- Tetap kirim query filter --}}
+                    @foreach(request()->except(['per_page', 'page']) as $name => $value)
+                    <input type="hidden" name="{{ $name }}" value="{{ $value }}">
+                    @endforeach
+                </form>
+
+                {{-- Pagination --}}
+                <div class="text-sm">
+                    {{ $serasiList->links() }}
+                </div>
+            </div>
+            @endif
+        </div>
+    </div>
+
+</section><!-- /Serasi Section -->
   </main>
 
   <footer id="footer" class="footer dark-background">
