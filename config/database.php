@@ -16,7 +16,7 @@ return [
     |
     */
 
-    'default' => env('DB_CONNECTION', 'sheets'),
+    'default' => env('DB_CONNECTION', 'sqlite'),
 
     /*
     |--------------------------------------------------------------------------
@@ -30,12 +30,6 @@ return [
     */
 
     'connections' => [
-
-        'sheets' => [
-            'driver' => 'sheets',
-            'spreadsheet_id' => env('GOOGLE_SHEET_ID'),
-            'sheet_name' => env('GOOGLE_SHEET_NAME', 'Data Serasi'),
-        ],
 
         'sqlite' => [
             'driver' => 'sqlite',
