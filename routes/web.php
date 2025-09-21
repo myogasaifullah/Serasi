@@ -11,7 +11,7 @@ Route::get('/admin/dashboard', [DashboardController::class, 'index'])
     ->name('admin.dashboard');
 
 // Halaman depan
-Route::get('/', [SerasiController::class, 'index']);
+Route::get('/serasi', [SerasiController::class, 'index']);
 Route::post('/serasi', [SerasiController::class, 'store'])->name('serasi.store');
 
 // Admin (gunakan middleware auth jika perlu)
@@ -25,9 +25,9 @@ Route::prefix('admin')->name('admin.')->middleware(['auth'])->group(function () 
     Route::resource('users', UserController::class);
 });
 
-// Route::get('/', function () {
-//     return view('welcome');
-// });
+Route::get('/', function () {
+    return view('welcome');
+});
 
 Route::get('/dashboard', function () {
     return view('dashboard');
