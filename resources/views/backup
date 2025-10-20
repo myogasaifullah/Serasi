@@ -484,7 +484,73 @@ Memeberikan fasilitas dukungan kompetitif.
 
     </section><!-- /Testimonials Section -->
 
-    
+    <!-- Team Section -->
+    <section id="team" class="team section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Pengurus</h2>
+        <div><span>Struktur Kepengurusan</span> <span class="description-title">HIMA Informatika</span></div>
+      </div><!-- End Section Title -->
+
+      <div class="container">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <div class="member">
+              <div class="pic"><img src="/build/assets/img/profile.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Rifki Abdullah</h4>
+                <span>Ketua HIMA</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="member">
+              <div class="pic"><img src="/build/assets/img/profile.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Selpia Ayu</h4>
+                <span>Wakil Ketua</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="member">
+              <div class="pic"><img src="/build/assets/img/profile.png" class="img-fluid" alt=""></div>
+              <div class="member-info">
+                <h4>Clara Maradini</h4>
+                <span>Sekretaris</span>
+                <div class="social">
+                  <a href=""><i class="bi bi-twitter-x"></i></a>
+                  <a href=""><i class="bi bi-facebook"></i></a>
+                  <a href=""><i class="bi bi-instagram"></i></a>
+                  <a href=""><i class="bi bi-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div><!-- End Team Member -->
+
+        </div>
+
+      </div>
+
+    </section>
+    <!-- /Team Section -->
 
     <!-- Contact Section -->
     <section id="contact" class="contact section">

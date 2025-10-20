@@ -46,7 +46,7 @@
           <li><a href="/#about">Tentang</a></li>
           <li><a href="/#activities">Kegiatan</a></li>
           <li><a href="/#gallery">Galeri</a></li>
-          <li><a href="/#team">Pengurus</a></li>
+          <!-- <li><a href="/#team">Pengurus</a></li> -->
           <li><a href="/#contact">Kontak</a></li>
           <li><a href="serasi" class="active">Serasi</a></li>
         </ul>
